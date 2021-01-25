@@ -31,11 +31,12 @@ const personalMovieDB = {
 
     },
     actors: {
-
+        
     },
     genres: [],
-    privat: false,
+    privat: false
 };
+
 
 personalMovieDB.movies[prompt('Один из последних просмотренных фильмов?', '')] = prompt('На сколько оцените его?', '');
 personalMovieDB.movies[prompt('Один из последних просмотренных фильмов?', '')] = prompt('На сколько оцените его?', '');
